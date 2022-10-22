@@ -31,7 +31,7 @@ public class Swagger2 {
 		"Case Study Project",
 		"Terms of Service",
 		"Free to use",
-		new springfox.documentation.service.Contact("Hari krishnsai", "http://Youtube.com", "harikrishnasai5678@gmail.com"),
+		new springfox.documentation.service.Contact("Sai Kiran Kumar", "http://Youtube.com", "saikiranankam19@gmail.com"),
 		"API Licence","http://Youtube.com", Collections.emptyList());
 	}
 
