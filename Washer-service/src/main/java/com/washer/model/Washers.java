@@ -11,7 +11,7 @@ public class Washers {
 	private String location;
 	private String password;
 	private String email;
-	private int contanct;
+	private int contact;
 	
 	public String getEmail() {
 		return email;
@@ -21,12 +21,12 @@ public class Washers {
 		this.email = email;
 	}
 
-	public int getContanct() {
-		return contanct;
+	public int getContact() {
+		return contact;
 	}
 
-	public void setContanct(int contanct) {
-		this.contanct = contanct;
+	public void setContact(int contact) {
+		this.contact = contact;
 	}
 
 	
@@ -34,14 +34,14 @@ public class Washers {
 		super();
 	}
 	
-	public Washers(int id, String name, String location, String password, String email ,int contanct ) {
+	public Washers(int id, String name, String location, String password, String email ,int contact ) {
 		super();
 		this.id = id;
 		this.name = name;
 		this.location = location;
 		this.password = password;
 		this.email = email;
-		this.contanct=contanct;
+		this.contact=contact;
 	}
 
 	public int getId() {
@@ -79,7 +79,7 @@ public class Washers {
 
 	@Override
 	public String toString() {
-		return "Washers [id=" + id + ", name=" + name + ", location=" + location + ", password=" + password + ",email="+email+",contanct="+contanct+"]";
+		return "Washers [id=" + id + ", name=" + name + ", location=" + location + ", password=" + password + ",email="+email+",contact="+contact+"]";
 	}
 
 	

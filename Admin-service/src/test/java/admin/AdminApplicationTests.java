@@ -9,5 +9,6 @@ class AdminApplicationTests {
 	@Test
 	void contextLoads() {
 	}
+	
 
 }
